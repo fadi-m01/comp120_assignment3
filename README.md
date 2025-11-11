@@ -70,6 +70,9 @@ python app.py
 
 5. Open your browser and go to: http://127.0.0.1:5000
 
+---
+
+```
 ## Usage Examples
 
 Navigate through different user roles for tailored dashboards.
@@ -80,6 +83,8 @@ IT Admins can view detailed test history and export reports.
 
 ISP Support can generate customer shareable reports.
 
+---
+
 ## Configuration
 
 Currently stores history in memory (last 50 tests).
@@ -88,9 +93,13 @@ User roles are passed to background speed testing threads to avoid session issue
 
 In production, replace in-memory storage with a persistent database (e.g., SQLite, PostgreSQL).
 
+---
+
 ## Testing
 
 (Add instructions once tests are implemented)
+
+---
 
 ## Deployment
 
