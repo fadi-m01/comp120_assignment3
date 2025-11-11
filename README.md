@@ -70,7 +70,7 @@ python app.py
 
 5. Open your browser and go to: http://127.0.0.1:5000
 
-Usage Examples
+## Usage Examples
 
 Navigate through different user roles for tailored dashboards.
 
@@ -80,7 +80,7 @@ IT Admins can view detailed test history and export reports.
 
 ISP Support can generate customer shareable reports.
 
-Configuration
+## Configuration
 
 Currently stores history in memory (last 50 tests).
 
@@ -88,11 +88,11 @@ User roles are passed to background speed testing threads to avoid session issue
 
 In production, replace in-memory storage with a persistent database (e.g., SQLite, PostgreSQL).
 
-Testing
+## Testing
 
 (Add instructions once tests are implemented)
 
-Deployment
+## Deployment
 
 Suitable for deployment on any Python-compatible web server.
 
@@ -112,7 +112,7 @@ Open a pull request with a clear description of your changes.
 
 Use GitHub issues for bug reports or feature requests.
 
-License
+## License
 
 This project is licensed under the MIT License
 .
@@ -125,7 +125,7 @@ Contact: fmatti@my.centennialcollege.ca
 
 GitHub Issues: https://github.com/yourusername/wifi-speed-test-webapp/issues
 
-Roadmap
+## Roadmap
 
 Add persistent storage with SQLite/Postgres
 
@@ -135,7 +135,7 @@ Add unit and integration tests
 
 Setup Continuous Integration (CI) pipeline
 
-Credits
+## Credits
 
 Built with Python
  and Flask
